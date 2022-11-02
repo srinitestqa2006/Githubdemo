@@ -1,10 +1,18 @@
 package com.github;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
 public class Homepage {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	@Test
+		void login()
+		{
+		WebDriver driber =new ChromeDriver();
+			System.out.println("sample");
+		}
 
 	}
 
-}
+
